@@ -96,7 +96,23 @@
         </div>
     </div>
     <!-- Video Modal End -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <div id="chart-wrapper">
+        <div class="chart-container">
+            <!-- Unique ID for the first chart -->
+            <canvas id="myAutomatedBarChart"></canvas>
+        </div>
 
+        <div class="chart-container">
+            <!-- Unique ID for the second chart -->
+            <canvas id="myAnimatedLineChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Include the script files with defer attribute -->
+    <script src="js/bar.js" defer></script>
+    <script src="js/animated-line-chart.js" defer></script>
 
     <!-- About Start -->
     <div class="container-xxl py-6" id="about">
