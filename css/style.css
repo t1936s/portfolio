@@ -428,28 +428,3 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
-
-/* Style for the container of each chart */
-    .chart-container {
-        width: 600px; /* Set a fixed width for the chart containers */
-        margin: 10px;
-        height: 400px; /* Adjust the height as needed */
-        display: inline-block;
-        vertical-align: top; /* Align the charts to the top */
-    }
-
-    /* Adjustments for responsiveness */
-    @media (max-width: 600px) {
-        .chart-container {
-            width: 100%; /* Use full width on smaller screens */
-            display: block;
-            text-align: center; /* Center the charts vertically */
-        }
-    }
-
-    /* Additional styles for layout */
-    #chart-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
