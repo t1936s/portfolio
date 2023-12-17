@@ -37,7 +37,7 @@ const config = {
             },
             title: {
                 display: true,
-                text: 'Chart.js Bar Chart'
+                text: 'Bar Chart - Sample'
             }
         }
     },
